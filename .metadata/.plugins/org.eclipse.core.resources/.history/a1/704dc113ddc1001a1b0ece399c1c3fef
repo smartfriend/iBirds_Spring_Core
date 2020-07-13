@@ -1,0 +1,13 @@
+package com.ibirds;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Bike implements Engine{
+
+	@Override
+	public void start() {
+		System.out.println("Bike is running");
+		
+	}
+}

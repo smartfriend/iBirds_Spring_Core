@@ -1,0 +1,17 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeBusiness {
+
+	Employee emp;
+	
+	public EmployeeBusiness() {
+		emp = new Employee();
+	}
+	
+	public void allRecords() {
+	}
+}

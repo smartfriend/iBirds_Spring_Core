@@ -1,0 +1,12 @@
+package com.ibirds;
+
+import java.sql.SQLException;
+
+public class Main {
+
+	public static void main(String[] args) throws SQLException {
+		BusinessLogic logic = new BusinessLogic();
+		logic.showAllData("select * from students");
+	}
+
+}

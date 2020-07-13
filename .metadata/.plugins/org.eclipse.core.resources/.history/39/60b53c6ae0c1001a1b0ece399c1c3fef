@@ -1,0 +1,23 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Rally {
+	
+//	@Value("${car.name}")
+//	String engineName;
+	
+	@Autowired
+	@Qualifier("bike")
+	Engine engine;
+	
+	public void displayRally() {
+		System.out.println( " Rally is on");
+		//System.out.println(engineName2 + " is participating in Bike Rally");
+	}
+
+}

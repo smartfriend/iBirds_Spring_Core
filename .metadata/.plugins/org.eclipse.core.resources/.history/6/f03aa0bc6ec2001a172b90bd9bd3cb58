@@ -1,0 +1,17 @@
+package com.ibirds;
+
+public class DBManager {
+
+	private String driver = "com.mysql.jdbc.Driver";
+	private String url = "jdbc:mysql//localhost:3306/school";
+	private String uid = "root";
+	private String pass = "";
+	
+	public void runDB() {
+		try {
+			
+		}catch(Exception e) {
+			System.out.println("Error : " + e);
+		}
+	}
+}

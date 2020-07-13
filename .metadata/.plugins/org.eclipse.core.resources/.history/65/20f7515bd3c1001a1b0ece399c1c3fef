@@ -1,0 +1,12 @@
+package com.ibirds;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Company {
+
+	SoftwareEngineer softEng;
+	public void displayCompany() {
+		System.out.println("this is company");
+	}
+}

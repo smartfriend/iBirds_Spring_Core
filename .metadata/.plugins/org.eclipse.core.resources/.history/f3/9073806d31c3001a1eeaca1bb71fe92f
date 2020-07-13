@@ -1,0 +1,19 @@
+package com.ibirds;
+
+public class EmployeeBusiness {
+
+	Employee emp;
+	
+	public EmployeeBusiness() {
+		emp = new Employee();
+	}
+	
+	public void allRecords() {
+		String selectQuery = "select * from employees";
+		emp.showDatabase(selectQuery);
+	}
+	
+	public void insertRecords(String name, String department, double mobile, char gender) {
+		String insertQuery = "insert into employees (name, department, mobile, gender) values('"+name+"','"+department+"','"+mobile+"','"+gender+"'";
+	}
+}

@@ -1,0 +1,13 @@
+package com.ibirds;
+
+
+	public class Main {
+	
+		public static void main(String[] args) {
+			EmployeeBusiness empB = new EmployeeBusiness();
+			empB.allRecords();
+			
+			//empB.insertRecords(, department, mobile, gender);
+	}	
+
+}

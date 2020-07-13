@@ -1,0 +1,11 @@
+package com.ibirds;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SoftwareEngineer {
+
+	public void displaySoftEngineer() {
+		System.out.println("This is software engineer");
+	}
+}

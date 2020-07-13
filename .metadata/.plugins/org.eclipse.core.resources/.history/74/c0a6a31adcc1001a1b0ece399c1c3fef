@@ -1,0 +1,8 @@
+package com.ibirds;
+
+public class Bike {
+
+	public void bikeRunning() {
+		System.out.println("Bike is running");
+	}
+}

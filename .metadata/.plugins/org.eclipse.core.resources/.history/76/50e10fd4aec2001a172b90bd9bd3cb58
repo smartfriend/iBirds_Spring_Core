@@ -1,0 +1,13 @@
+package com.ibirds;
+
+public class EmployeeBusiness {
+
+	Employee emp;
+	
+	public EmployeeBusiness() {
+		emp = new Employee();
+	}
+	
+	public void allRecords() {
+	}
+}

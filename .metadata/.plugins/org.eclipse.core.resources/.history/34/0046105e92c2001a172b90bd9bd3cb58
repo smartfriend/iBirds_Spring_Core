@@ -1,0 +1,18 @@
+package com.ibirds;
+
+import java.sql.SQLException;
+
+public class BusinessLogic {
+
+	private String query = "select * from students";
+	public void showAllData(String query) {
+		
+		DBConfig config = new DBConfig();
+		try {
+			config.showDB(query);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+}

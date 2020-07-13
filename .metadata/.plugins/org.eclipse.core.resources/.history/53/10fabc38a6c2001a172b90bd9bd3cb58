@@ -1,0 +1,49 @@
+package com.ibirds;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+
+	@Value("${db.driver}")
+	private String driver;
+	@Value("${db.url}")
+	private String url;
+	@Value("${db.user}")
+	private String user;
+	@Value("${db.password}")
+	private String password;
+	
+	private Connection con;
+	private Statement stmt;
+	private ResultSet result;
+	
+	public void showDatabase(String query) {
+		try {
+//			Class.forName(driver);
+//			con = DriverManager.getConnection(url, user, password);
+//			stmt = con.createStatement();
+//			result = stmt.executeQuery(query);
+			System.out.println(url);
+			
+//			while(result.next()) {
+//				System.out.println("Employee details for ID : " + result.getInt(1));
+//				System.out.println("Name : " + result.getString(2));
+//				System.out.println("Gender : " + result.getString(3));
+//				System.out.println("Department : " + result.getString(4));
+//				System.out.println("Mobile : " + result.getDouble(5));
+//				System.out.println("*******************************");
+//				
+//			}
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+}

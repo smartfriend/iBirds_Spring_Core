@@ -1,0 +1,20 @@
+package com.ibirds;
+
+import java.sql.SQLException;
+
+public class BusinessLogic {
+	DBConfig config = new DBConfig();
+	
+	public void showAllData(String query) throws SQLException {
+		config.showDB(query);
+	}
+	
+	public void changeData(String query) {
+		try {
+			config.manipulateDB(query);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+}

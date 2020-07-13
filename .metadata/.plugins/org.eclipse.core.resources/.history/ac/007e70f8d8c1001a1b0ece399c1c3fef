@@ -1,0 +1,22 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+//import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Company {
+
+	@Autowired
+	@Qualifier("softwareEngineer")
+	Engineer engineer;
+	
+//	@Autowired
+//	@Qualifier("hardwareEngineer")
+//	Engineer engineer2;
+	
+	public void displayCompany() {
+		System.out.println("this is company");
+	}
+}

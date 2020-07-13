@@ -1,0 +1,15 @@
+package com.ibirds;
+
+import java.util.Properties;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Main {
+
+	Properties props = new Properties();
+	props.load(new FileInputStream("property"));
+	public static void main(String[] args) {
+		
+
+}

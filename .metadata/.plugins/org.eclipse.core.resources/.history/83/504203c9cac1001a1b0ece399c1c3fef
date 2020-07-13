@@ -1,0 +1,28 @@
+package com.ibirds;
+
+
+public class Employee {
+	
+	private String empName;
+	private int empId;
+	private String empSkills;
+	
+	
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+	
+	public void setEmpSkills(String empSkills) {
+		this.empSkills = empSkills;
+	}
+	
+	public void showDetails() {
+		System.out.println("Employee name is: "+ empName);
+		System.out.println("Employee ID is: "+ empId);
+		System.out.println("Employee skills are: "+ empSkills);
+	}
+}

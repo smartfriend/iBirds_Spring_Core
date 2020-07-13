@@ -1,0 +1,21 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Select {
+	@Autowired
+	vehicle veh;
+	
+//	public Select(Bike bike) {
+//		this.bike = bike;
+//	}
+//	
+//	public void setStartCar(Car car) {
+//		this.car = car;
+//	}
+	
+	public void run() {
+		veh.start();
+		veh.start();
+	}
+}

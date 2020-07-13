@@ -1,0 +1,18 @@
+package com.ibirds;
+
+import java.sql.SQLException;
+
+public class Main {
+
+	public static void main(String[] args) throws SQLException {
+		BusinessLogic logic = new BusinessLogic();
+		String showQuery = "select * from students";
+		logic.showAllData();
+		
+		String insertQuery = "insert into students (student_id, name, gender, marks) values('2', 'Shikha', 'F', 350)";
+		logic.changeData(insertQuery);
+		logic.showAllData();
+		
+	}
+
+}

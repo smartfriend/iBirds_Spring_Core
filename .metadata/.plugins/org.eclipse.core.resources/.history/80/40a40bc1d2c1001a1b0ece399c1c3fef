@@ -1,0 +1,8 @@
+package com.ibirds;
+
+public class Company {
+
+	public void displayCompany() {
+		System.out.println("this is company");
+	}
+}

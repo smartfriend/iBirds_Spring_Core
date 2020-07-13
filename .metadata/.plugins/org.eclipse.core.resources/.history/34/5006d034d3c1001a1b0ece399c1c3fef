@@ -1,0 +1,8 @@
+package com.ibirds;
+
+public class SoftwareEngineer {
+
+	public void displaySoftEngineer() {
+		System.out.println("This is software engineer");
+	}
+}

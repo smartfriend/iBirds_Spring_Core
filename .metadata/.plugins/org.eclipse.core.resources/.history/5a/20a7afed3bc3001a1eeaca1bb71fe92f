@@ -1,0 +1,14 @@
+package com.ibirds;
+
+
+	public class Main {
+	
+		public static void main(String[] args) {
+			EmployeeBusiness empB = new EmployeeBusiness();
+			//empB.showAllRecords();
+			
+			//empB.insertRecords("Ashutosh", "HR", 1234567890, 'M');
+			empB.updateRecords(3, 9898989898L);
+	}	
+
+}

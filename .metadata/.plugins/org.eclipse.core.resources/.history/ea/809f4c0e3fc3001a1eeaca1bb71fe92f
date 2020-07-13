@@ -1,0 +1,26 @@
+package com.ibirds;
+import java.util.Scanner;
+
+	public class Main {
+	
+		public static void main(String[] args) {
+			EmployeeBusiness empB = new EmployeeBusiness();
+			Scanner scan = new Scanner(System.in);
+			System.out.println("=====================================");
+			System.out.println("Welcome to the employees portal");
+			System.out.println("=====================================");
+			System.out.println("Press 1 for view all employee records");
+			int menuOption = scan.nextInt();
+			if(menuOption == 1)
+				empB.showAllRecords();
+			
+			//empB.showAllRecords();
+			
+		//	empB.insertRecords("Anita", "IT", 1234567890, 'F');
+			//empB.updateRecords(3, 9898989898L);
+			//empB.deleteRecord(1);
+			//System.out.println("After deletion");
+			//empB.showAllRecords();
+	}	
+
+}

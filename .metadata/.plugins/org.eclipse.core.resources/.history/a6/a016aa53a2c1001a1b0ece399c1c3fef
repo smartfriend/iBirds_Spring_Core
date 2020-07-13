@@ -1,0 +1,27 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class Select {
+	@Autowired
+	@Qualifier("car")
+	vehicle veh;
+	
+//	public Select(Bike bike) {
+//		this.bike = bike;
+//	}
+//	
+//	public void setStartCar(Car car) {
+//		this.car = car;
+//	}
+	
+	public void run() {
+		if(veh == null) {
+			System.out.println("Cannot start "+ veh);
+		}else {
+			veh.start();
+		}
+		
+	}
+}

@@ -1,0 +1,4 @@
+db.driver = org.postgresql.Driver
+url = jdbc:postgresql://localhost:2020/students
+user = postres
+password = 1234

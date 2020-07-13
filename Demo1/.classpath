@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aop-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aop-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aop-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aspects-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aspects-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-aspects-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-beans-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-beans-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-beans-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-indexer-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-indexer-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-indexer-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-support-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-support-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-context-support-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-core-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-core-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-core-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-expression-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-expression-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-expression-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-instrument-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-instrument-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-instrument-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jcl-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jcl-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jcl-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jdbc-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jdbc-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jdbc-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jms-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jms-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-jms-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-messaging-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-messaging-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-messaging-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-orm-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-orm-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-orm-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-oxm-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-oxm-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-oxm-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-test-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-test-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-test-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-tx-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-tx-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-tx-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-web-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-web-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-web-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webflux-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webflux-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webflux-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webmvc-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webmvc-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-webmvc-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-websocket-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-websocket-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Mohit Tyagi/Spring Core/Demo1/bin/spring-websocket-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

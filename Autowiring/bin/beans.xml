@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        
+        <context:annotation-config/> 
+        
+        <!-- bean definitions here -->
+        
+        <!--<bean id="company" class="com.ibirds.Company">
+        	<constructor-arg name="hr">
+        		<bean class="com.ibirds.HRDepartment"></bean>
+        	</constructor-arg>
+        </bean>-->
+        
+        <!-- using autowire = constructor  -->
+        <!--<bean id="hr2" class="com.ibirds.HRDepartment"></bean>
+        <bean id="company" class="com.ibirds.Company" autowire="constructor"/>  -->
+        
+         <!-- using autowire = byName  
+         <bean id="hr2" class="com.ibirds.HRDepartment"></bean>
+        <bean id="company" class="com.ibirds.Company" autowire="byName"/>-->
+        
+         <!-- using autowire = byType -->
+         <!--<bean id="hr" class="com.ibirds.HRDepartment"></bean> 
+         <bean id="hr" class="com.ibirds.HRDepartment"></bean>
+        <bean id="company" class="com.ibirds.Company" autowire="byType"/> -->
+        
+        <!-- using autowire = default -->
+         <bean id="hr" class="com.ibirds.HRDepartment"/>
+         <bean id="it" class="com.ibirds.ITDepartment"/>
+        <bean id="company" class="com.ibirds.Company"/> 
+        
+        
+</beans>

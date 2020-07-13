@@ -1,0 +1,14 @@
+package com.ibirds;
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			new DBConfig().runDB();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

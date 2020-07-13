@@ -1,0 +1,15 @@
+package com.ibirds;
+
+public class EmployeeBusiness {
+
+	Employee emp;
+	
+	public EmployeeBusiness() {
+		emp = new Employee();
+	}
+	
+	public void allRecords() {
+		String selectQuery = "select * from employees";
+		emp.showDatabase(selectQuery);
+	}
+}

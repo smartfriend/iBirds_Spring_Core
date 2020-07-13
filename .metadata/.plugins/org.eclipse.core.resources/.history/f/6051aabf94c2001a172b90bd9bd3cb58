@@ -1,0 +1,14 @@
+package com.ibirds;
+
+import java.sql.SQLException;
+
+public class BusinessLogic {
+
+	
+	public void showAllData(String query) throws SQLException {
+		
+		DBConfig config = new DBConfig();
+		config.showDB(query);
+	}
+	
+}

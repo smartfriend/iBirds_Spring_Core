@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    https://www.springframework.org/schema/beans/spring-beans.xsd">    
+        
+        <!-- this bean will work when there are setter methods available -->
+       <bean id="setter_student" class="com.ibirds.di.setters.constructor.Student">
+       		<property name="name" value="Rohan"/>
+       		<property name="age" value="20"/>
+       		<property name="subject" value="Java"/>
+       		<property name="mobile" value="9898989898"/>
+       </bean> 
+       
+       <!--  constructor method bean -->
+       <bean id="consntructor_student" class="com.ibirds.di.setters.constructor.Student">
+       	<constructor-arg name="name" value="Mohan"/>
+       	<constructor-arg name="age" value="22"/>
+       	<constructor-arg name="subject" value="Salesforce"/>
+       	<constructor-arg name="mobile" value="1234567890"/>
+       </bean>
+</beans>          

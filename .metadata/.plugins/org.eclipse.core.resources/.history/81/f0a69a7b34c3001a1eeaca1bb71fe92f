@@ -1,0 +1,23 @@
+package com.ibirds;
+
+public class EmployeeBusiness {
+
+	Employee emp;
+	
+	public EmployeeBusiness() {
+		emp = new Employee();
+	}
+	
+	public void allRecords() {
+		String selectQuery = "select * from employees";
+		emp.showDatabase(selectQuery);
+	}
+	
+	public void insertRecords(String name, String department, long mobile, char gender) {
+		String insertQuery = "insert into employees (name, department, mobile, gender) values('"+name+"','"+department+"','+mobile+','"+gender+"'";
+		if(emp.crudDatbase(insertQuery))
+			System.out.println("Record inserted successfulyy");
+		else
+			System.out.println("Unable to insert record");
+	}
+}

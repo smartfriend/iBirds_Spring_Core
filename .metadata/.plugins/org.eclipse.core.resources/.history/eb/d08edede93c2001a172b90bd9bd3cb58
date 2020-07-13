@@ -1,0 +1,31 @@
+package com.ibirds;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DBConfig {
+
+	private String driver = "org.postgresql.Driver";
+	private String url = "jdbc:postgresql://localhost:2020/school";
+	private String user = "postgres";
+	private String password = "1234";
+	
+	public void showDB(String query) throws SQLException {
+		try {
+			Class.forName(driver);
+			Connection con = DriverManager.getConnection(url, user,password);
+			Statement stmt = con.createStatement();
+			ResultSet result = stmt.executeQuery(query);
+			
+			while(result.next()) {
+				System.out.println(result.getString(2));
+			}
+		}catch(Exception e) {
+			System.out.println("Error : " + e);
+		}
+		
+	}
+}

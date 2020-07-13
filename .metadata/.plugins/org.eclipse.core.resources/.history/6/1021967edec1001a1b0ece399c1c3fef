@@ -1,0 +1,18 @@
+package com.ibirds;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Bike implements Engine{
+
+	@Value("{bike.name}")
+	String bikeName;
+	
+	@Override
+	public void start() {
+		System.out.println("Bike is running");
+		System.out.println("Bike's name is " + bikeName);
+		
+	}
+}

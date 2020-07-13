@@ -1,0 +1,19 @@
+package com.ibirds;
+
+public class Select {
+	Bike bike;
+	Car car;
+	
+	public Select(Bike bike) {
+		this.bike = bike;
+	}
+	
+	public void setStartCar(Car car) {
+		this.car = car;
+	}
+	
+	public void run() {
+		bike.start();
+		car.start();
+	}
+}

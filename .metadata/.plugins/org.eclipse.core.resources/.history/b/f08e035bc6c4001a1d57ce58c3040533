@@ -1,0 +1,5 @@
+package com.ibirds.di.setters.constructor;
+
+public class Student {
+
+}

@@ -1,0 +1,14 @@
+package com.ibirds;
+
+//import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Bike implements Engine{
+
+	@Override
+	public void start() {
+		System.out.println(" is running");
+		
+	}
+}

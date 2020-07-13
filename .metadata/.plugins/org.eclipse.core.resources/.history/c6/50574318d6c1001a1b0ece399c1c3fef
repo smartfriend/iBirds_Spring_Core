@@ -1,0 +1,11 @@
+package com.ibirds;
+
+public class HardwareEngineer implements Engineer
+{
+
+	@Override
+	public void displayEngineer() {
+		System.out.println("This is hardware engineer");
+	}
+
+}
