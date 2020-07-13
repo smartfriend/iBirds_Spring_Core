@@ -4,11 +4,17 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
+        <bean id="subjectClass" class="com.ibirds.di.object.ref.Subject"></bean>
+        
         <bean id="student" class="com.ibirds.di.object.ref.Student">
         	<property name="id" value="1001"></property>
         	<property name="name" value="Anonymous"></property>
-        	<property name="subject">
-        		<bean class="com.ibirds.di.object.ref.Subject"></bean>
-        	</property>
+        	<property name="subject" ref="subjectClass"/>
+        </bean>
+        
+        <bean id="anotherStudent" class="com.ibirds.di.object.ref.AnotherStudent">
+        	<property name="id" value="1002"></property>
+        	<property name="name" value="Anonymous2"></property>
+        	<property name="subject" ref="subjectClass"/>
         </bean>
 </beans>        
