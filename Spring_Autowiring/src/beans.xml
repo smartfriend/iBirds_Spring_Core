@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+	<!-- this needs to be added to use @Autowired annotation -->
+    <context:annotation-config/>
+        
+        <!-- here spring will check for the exact name of the Rally's variable present in Bike class which is "rally" 
+        <bean id="rally" class="com.ibirds.spring.autowiring.Rally"/>-->
+        
+        <!-- here spring will check for the type of the dependency class as in Rally's qualified name -->
+        <bean id="rally" class="com.ibirds.spring.autowiring.Rally"/>
+        
+        <!-- here spring will check for the constructor and pass the bean 
+        <bean id="bike" class="com.ibirds.spring.autowiring.Bike" autowire="constructor"/>-->
+        
+        <!-- here we are going to use @Autowired annotation inside the class -->
+        <bean id="bike" class="com.ibirds.spring.autowiring.Bike"/>
+        
+</beans>
