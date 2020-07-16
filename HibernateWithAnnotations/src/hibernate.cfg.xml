@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect
+		</property>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:2020/school?useSSL=false
+		</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">1234</property>
+		<!-- create can be used in place of update, however it will drop the table everytime and create a new one with current record -->
+		<property name="hbm2ddl.auto">update</property>
+		<!-- to see the sql query creation and execution on console -->
+		<property name="show_sql">true</property>
+
+	</session-factory>
+</hibernate-configuration>

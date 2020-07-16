@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.ibirds.pojo.Student" table="tbl_students">
+		<meta attribute="class-description">This class contains student details</meta>
+		<id name="id" type="int" column="student_id">
+			<generator class="native" />
+		</id>
+
+		<property name="firstName" column="first_name" type="string" />
+		<property name="lastName" column="last_name" type="string" />
+
+	</class>
+</hibernate-mapping>
